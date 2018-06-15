@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        setSupportActionBar(toolbar); //测试一下看看，有没有copy下来master
 
         findViewById(R.id.btn_activity).setOnClickListener(this);
         findViewById(R.id.btn_rationale).setOnClickListener(this);
